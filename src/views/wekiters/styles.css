@@ -1,0 +1,165 @@
+p {
+    margin: 0;
+}
+
+.weKitersContent {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+.kitersImg {
+    display: block;
+    width: 100%;
+}
+
+.desk {
+    display: inherit;
+    width: -webkit-fill-available;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.mid {
+    display: none;
+}
+
+.small {
+    display: none;
+}
+
+.getInTouch {
+    flex: 1;
+    padding: 92px;
+    width: -webkit-fill-available;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F7F5F0;
+}
+
+.noMargin {
+    margin-top: 0;
+}
+
+.goToTopWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 160px 0;
+}
+
+.goToTopButton {
+    background: transparent;
+    border: none;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.goToTopImage {
+    margin-bottom: 16px;
+}
+
+.goToTopText {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.customTag {
+    line-height: 60px;
+}
+
+.getInTouchText {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.margin {
+    margin-right: 14px;
+}
+
+
+
+@media only screen and (max-width: 1080px){
+
+    .desk {
+        display: none;
+    }
+    
+    .mid {
+        display: inherit;
+        width: -webkit-fill-available;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .small {
+        display: none;
+    }
+   
+    .getInTouchText {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .desk {
+        display: none;
+    }
+    
+    .mid {
+        display: none;
+    }
+    
+    .small {
+        display: inherit;
+        width: -webkit-fill-available;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .goToTopWrapper {
+        padding: 64px 0 128px 0;
+    }
+
+    .getInTouch {
+        display: flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
+    }    
+}
+  

@@ -1,0 +1,291 @@
+p {
+    margin: 0;
+}
+
+.aboutContent {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-top: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.aboutSection {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 162px;
+}
+
+.cvSection {
+    margin-top: 160px;
+    background-color: #F7F5F0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 80px 162px;
+    width: -webkit-fill-available;
+    position: relative;
+}
+
+.cv {
+    position: absolute;
+    bottom: -46px;
+    background-color: #fff;
+}
+
+.passionSection {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 160px 120px;
+    width: -webkit-fill-available;
+}
+
+.imageDesk {
+    display: inherit;
+    width: -webkit-fill-available;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.imageMid {
+    display: none;
+}
+
+.imageMob {
+    display: none;
+}
+
+
+.aboutCont {
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.photoCont {
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.aboutTitle {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.aboutTitleMobile {
+    display: none;
+}
+
+.aboutText {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.customTag {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 37px;
+    transform: rotate(-2deg);
+}
+
+.getInTouch {
+    flex: 1;
+    padding: 92px;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F7F5F0;
+}
+
+.getInTouchText {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.margin {
+    margin-right: 14px;
+}
+
+
+
+@media only screen and (max-width: 1080px){
+
+    .aboutSection {
+        padding: 0 122px;
+    }
+
+    .aboutTitle {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .aboutText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+   
+    .getInTouchText {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .cvSection {
+        padding: 48px 130px;
+    }
+
+    .cv {
+        padding: 2px 24px;
+        font-size: 30px;
+        line-height: 36px;
+        bottom: -40px;
+    }
+
+    .passionSection {
+        padding: 160px 40px;
+    }
+    
+    .imageDesk {
+        display: none;
+    }
+    
+    .imageMid {
+        display: inherit;
+        width: -webkit-fill-available;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .imageMob {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .aboutSection {
+       flex-direction: column;
+       padding: 61px;
+    }
+
+    .photoCont {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .aboutCont {
+        width: 100%;
+    }
+
+    .aboutTitleMobile {
+        display: inherit;
+        font-family: 'Telegraf';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 32px;
+        text-align: left;
+    }
+
+    .aboutTitle {
+        display: none;
+    }
+
+    .aboutText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .customTag {
+        padding: 8px 24px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .getInTouch {
+        display: flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
+    }
+
+    .margin {
+        margin-bottom: 16px;
+    }
+
+    .cvSection {
+        margin-top: 20px;
+        padding: 64px 62px;
+    }
+
+    .cv {
+        padding: 2px 24px;
+        font-size: 30px;
+        line-height: 36px;
+        bottom: -15px;
+    }
+
+    .passionSection {
+        padding: 64px 16px 130px 16px;
+    }
+    
+    
+    .imageDesk {
+        display: none;
+    }
+    
+    .imageMid {
+        display: none;
+    }
+    
+    .imageMob {
+        display: inherit;
+        width: -webkit-fill-available;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+}
+  

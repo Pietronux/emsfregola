@@ -1,0 +1,130 @@
+/* Navbardesktop */
+
+p {
+    margin: 0;
+  }
+  
+  .flex-col-hcenter-vstart {
+    display: flex;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 51;
+  }
+  
+  .flex-row-vstart-hsb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .flex-hcenter {
+    justify-content: center;
+  }
+  
+  .nav-bar-desktop {
+    background-color: transparent;
+    width: 100%;
+  }
+  
+  .frame-3019 {
+    padding: 40px 24px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .txt-558 {
+    font-size: 30px;
+    font-family: 'Telegraf', sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+    word-wrap: break-word;
+    cursor: pointer;
+  }
+
+  .menuContent {
+    display: flex;
+    background-color: #F7F5F0;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .menuNavigationLabel {
+    font-size: 30px;
+    font-family: 'Telegraf', sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+    word-wrap: break-word;
+    text-decoration: underline;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  .-last {
+    margin-bottom: 0;
+  }
+
+
+
+
+@media only screen and (max-width: 1080px){
+  .txt-558 {
+    font-size: 24px;
+    line-height: 25.4px;
+  }
+
+  .frame-3019 {
+    padding: 32px 24px;
+  }
+
+  .menuContent {
+    padding-bottom: 32px;
+  }
+
+  .menuNavigationLabel {
+    font-size: 24px;
+    line-height: 25.4px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .txt-558 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .frame-3019 {
+    padding: 24px 16px;
+  }
+
+  .menuContent {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+
+  .menuNavigationLabel {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+  

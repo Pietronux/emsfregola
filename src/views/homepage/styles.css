@@ -1,0 +1,255 @@
+/* Navbardesktop */
+
+p {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    padding-top: 280px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.textSection {
+    box-sizing: border-box;
+    max-width: 994px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 112px;
+}
+
+.bolded {
+    font-size: 38px;
+    font-family: 'Agrandir';
+    font-weight: 700;
+    line-height: 58.8px;
+    color: #000000;
+}
+
+.normal {
+    font-size: 48px;
+    font-family: 'Telegraf';
+    font-weight: 400;
+    line-height: 62.6px;
+    color: #000000;
+}
+
+.normalBolded {
+    font-size: 48px;
+    font-family: 'Telegraf';
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #000000;
+}
+
+.tag {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 8px 24px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 37px;
+    transform: rotate(-2deg);
+}
+
+.tag:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.imageSection {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 275px;
+}
+.kitersImage {
+    cursor: pointer;
+    max-width: 994px
+}
+.kitersDescSection {
+    flex: 1;
+    flex-direction: row;
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.kitersDesc {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    align-items: center;
+    margin-right: 14px;
+}
+
+.customTag {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 37px;
+    transform: rotate(-2deg);
+}
+
+.getInTouch {
+    flex: 1;
+    margin-top: 180px;
+    padding: 92px;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F7F5F0;
+}
+
+.getInTouchText {
+    font-family: 'Telegraf';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.margin {
+    margin-right: 14px;
+}
+
+
+
+@media only screen and (max-width: 1080px){
+    .textSection {
+        max-width: 701px;
+        padding: 0 108px;
+    }
+    .bolded {
+        font-size: 32px;
+        line-height: 46.8px;
+    }
+    .normal {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .normalBolded {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .tag {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .customTag {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .imageSection {
+        margin-top: 240px;
+    }
+    .kitersImage {
+        max-width: 703px
+    }
+    .kitersDesc {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .getInTouchText {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .descTag {
+        font-size: 24px !important;
+line-height: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .textSection {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .bolded {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .normal {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .normalBolded {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .tag {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .customTag {
+        padding: 8px 24px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .imageSection {
+        margin-top: 168px;
+    }
+
+    .kitersImage {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .kitersDescSection {
+        flex-direction: column-reverse;
+        display: flex;
+        padding: 0 16px;
+        position: relative;
+    }
+
+    .descTag {
+        background-color: #fff;
+        position: absolute;
+        top: -40px
+    }
+    .kitersDesc {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .getInTouch {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin {
+        margin-bottom: 16px;
+    }
+}
+  
